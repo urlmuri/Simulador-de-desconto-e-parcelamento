@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tr.appendChild(tdAmortizacao);
             tr.appendChild(tdRestante);
 
-            corpoTabela;this.appendChild(tr);
+            corpoTabela.appendChild(tr);
             }
 
             tabelaSecao.hidden = false;
@@ -115,4 +115,4 @@ document.addEventListener('DOMContentLoaded', function () {
             tabelaSecao.hidden = true;
         }
         });
-    });s
+    });
